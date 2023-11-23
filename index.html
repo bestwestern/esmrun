@@ -24,12 +24,10 @@
     </nav>
     <div id="root"></div>
     <script type="text/babel">
-      import { createRoot ,useEffect } from 'react-dom/client';
-
+      import { createRoot ,useState } from 'react-dom/client';
+console.log(useState)
       function App() {
-        useEffect(()=>{
-          console.log("log")
-        },[])
+        
         return (
           <div>
             <button type="button" onClick={(e) => alert('Jkl')}>
