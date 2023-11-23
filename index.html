@@ -27,6 +27,9 @@
       import { createRoot } from 'react-dom/client';
 
       function App() {
+        useEffect(()=>{
+          console.log("log")
+        },[])
         return (
           <div>
             <button type="button" onClick={(e) => alert('Jkl')}>
